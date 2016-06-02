@@ -4,13 +4,10 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "black", "color": "white"});
 
-    }else if ($(".navbar").offset().top < 25)  {
+    }else{
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "transparent", "color": "black"});
 
-    }else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".navbar-fixed-top").css({"background": "transparent", "color": "black"});
     }
 });
 
