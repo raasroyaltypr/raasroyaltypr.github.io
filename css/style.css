@@ -74,7 +74,7 @@ html, body {
   background-position: center center;
   background-clip: border-box;
   background-origin: padding-box;
-  background-size: cover;
+  background-size: 100% 100%;
   background-color:white;
   text-align:center;
   padding-top:250px;  
