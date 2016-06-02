@@ -544,3 +544,12 @@ background-color:#F8F8F8;
     font-size: 32px;
   }
 }
+
+
+
+@media only screen and (max-width: 500px) {
+    .navbar-fixed-top {
+      background:black;
+      color:white;
+    }
+    }
