@@ -17,7 +17,6 @@ html, body {
 
 /*Navagation CSS */
 
-
 .navbar-default .navbar-brand{
   font-size:20px;
   color:white;
@@ -548,8 +547,12 @@ background-color:#F8F8F8;
 
 
 @media only screen and (max-width: 500px) {
-    .navbar-fixed-top {
-      background:black;
-      color:white;
-    }
+.navbar-default{
+    background: black;
+    border:none !important;
+    position:fixed;
+    color:white;
+
+  }
+}
     }

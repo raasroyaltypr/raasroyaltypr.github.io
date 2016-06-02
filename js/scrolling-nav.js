@@ -1,5 +1,8 @@
 //jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
+var mq = window.matchMedia('@media all and (max-width: 500px)');
+
+if(mq.matches) {
+    $(window).scroll(function() {
     if ($(".navbar").offset().top > 25) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "black", "color": "white"});
@@ -10,6 +13,13 @@ $(window).scroll(function() {
 
     }
 });
+    // the width of browser is more then 700px
+} else {
+        $(".navbar-default").css{"background-color:": "black", "color":"white"}
+
+    // the width of browser is less then 700px
+}
+
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
