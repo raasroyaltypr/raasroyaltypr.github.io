@@ -546,7 +546,7 @@ background-color:#F8F8F8;
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 960px) {
 .navbar-default{
     background: black;
     border:none !important;
