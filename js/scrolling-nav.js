@@ -7,18 +7,15 @@ if(mq.matches) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "black", "color": "white"});
 
-    }else{
+    }
+    else{
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "transparent", "color": "black"});
 
     }
 });
+};
     // the width of browser is more then 700px
-} else {
-        $(".navbar-default").css{"background-color:": "black", "color":"white"}
-
-    // the width of browser is less then 700px
-}
 
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
