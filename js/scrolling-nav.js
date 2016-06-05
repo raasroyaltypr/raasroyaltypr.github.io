@@ -1,5 +1,7 @@
 //jQuery to collapse the navbar on scroll
+var mq = window.matchMedia("max-width: 961px)");
 
+    if (document.documentElement.clientWidth > 961) {
     $(window).scroll(function() {
     if ($(".navbar").offset().top > 25) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -12,6 +14,10 @@
 
     }
 });
+
+    }
+
+
     // the width of browser is more then 700px
 
 
