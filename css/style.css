@@ -547,28 +547,15 @@ background-color:#F8F8F8;
 
 
 @media only screen and (max-width: 960px) {
-.navbar-default{
-    background: black;
-    border:none !important;
-    position:fixed;
-    color:white;
+    .navbar-default{
+        background: black;
+        border:none !important;
+        position:fixed;
+        color:white;
 
-  }
-.title {
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.4), 
-      rgba(0, 0, 1, 0.4)
-      ),url(../images/rr-main.jpg);
-    background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size:cover;
-  background-color:white;
-  text-align:center;
-  padding-top:250px;  
-}
+      }
+    .title {
+      background-attachment: scroll;
 
-
-}
+    }
+    }
