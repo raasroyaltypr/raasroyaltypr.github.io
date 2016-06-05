@@ -554,5 +554,22 @@ background-color:#F8F8F8;
     color:white;
 
   }
+.title {
+  background: linear-gradient(
+      rgba(0, 0, 1, 0.4), 
+      rgba(0, 0, 1, 0.4)
+      ),url(../images/rr-main.jpg);
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size:cover;
+  background-color:white;
+  text-align:center;
+  padding-top:250px;  
+}
+
+
 }
     }
