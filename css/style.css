@@ -277,10 +277,9 @@ background-color:#F8F8F8;
 }
 
 .about-section img{
-  margin:50px 0 0 0 ;
-  max-height:800px; 
-
-  width: auto;
+  margin:50px 0 0 0 ; 
+  max-height:60%;
+  width: 60%;
 }
 
 .border-line-2 {
@@ -391,6 +390,9 @@ background-color:#F8F8F8;
   margin-bottom:100px;
 }
 
+.left {
+  text-align:left;
+}
 
 .btn {
   text-decoration: none;
