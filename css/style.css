@@ -462,7 +462,7 @@ background-color:#F8F8F8;
 
 .contact {
   margin-top:100px;
-  margin-bottom:100px;
+  margin-bottom:50px;
 }
 
 .contact label{
@@ -472,6 +472,38 @@ background-color:#F8F8F8;
 
 .contact button{
   margin-top:10px;
+}
+
+.faq {
+  margin-bottom:100px;
+}
+
+.faq h1 {
+  text-align:center;
+  padding-bottom:24px;
+  font-size:32px;
+}
+
+.faq h3 {
+  padding-bottom:10px;
+  color:#FF9C81;
+}
+
+.faq p {
+  padding-bottom:10px;
+}
+
+.faq a {
+  color:black;
+}
+
+iframe {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+span {
+  font-weight: bold;
 }
 
 
