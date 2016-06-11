@@ -493,5 +493,8 @@ span {
     .title {
         background-attachment: scroll;
     }
+
+    .apply-header, .about-header, .organization-header, .liaison-header {
+        background-attachment:fixed;
     }
-s
+    }
