@@ -482,6 +482,9 @@ span {
     .main h1 {
         font-size: 32px;
     }
+    html {
+      overflow-y: visible;
+}
 
     body {
       overflow-y: scroll;
