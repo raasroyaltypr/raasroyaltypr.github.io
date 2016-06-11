@@ -484,7 +484,7 @@ span {
     }
 
     body {
-      overflow-y: scroll;
+      overflow-y: fixed;
     }
 }
 @media only screen and (max-width: 960px) {
