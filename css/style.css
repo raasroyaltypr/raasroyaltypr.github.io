@@ -148,7 +148,7 @@ p {
 .image {
   text-align:center;
   padding-left: auto;
-  padding:right:auto;
+  padding-right:auto;
 }
 
 
@@ -236,7 +236,7 @@ background-color:#F8F8F8;
 
 .footer img {
   height:30px;
-  width:30;
+  width:30px;
   margin:5px 10px 10px auto;
 }
 
