@@ -1,3 +1,7 @@
+html {
+      overflow-y: hidden;
+}
+
 html,
 body {
     margin: 0px;
@@ -478,9 +482,9 @@ span {
     .main h1 {
         font-size: 32px;
     }
-    
+
     body {
-      overflow: scroll;
+      overflow-y: scroll;
     }
 }
 @media only screen and (max-width: 960px) {
