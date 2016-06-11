@@ -491,4 +491,9 @@ span {
     .title {
         background-attachment: scroll;
     }
+
+    body {
+      overflow: scroll;
+    }
+    }
 }
