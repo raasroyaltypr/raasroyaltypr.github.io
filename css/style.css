@@ -1,650 +1,477 @@
-html, body {
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Raleway',helvetica, sans-serif;
-  background-color:white;
-  max-width:100%;
-
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', helvetica, sans-serif;
+    background-color: white;
+    max-width: 100%;
 }
-
 p {
-  font-family: 'Open Sans', sans-serif;
-  color:#666666;
- 
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
 }
-
-
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
-
-
 /*Navagation CSS */
 
-.navbar-default .navbar-brand{
-  font-size:20px;
-  color:white;
+.navbar-default .navbar-brand {
+    font-size: 20px;
+    color: white;
 }
-
 .navbar-default .navbar-brand:hover {
-  color:#FF0049;
+    color: #FF0049;
 }
-
 .navbar-default .navbar-nav > li > a {
-  color:white;
+    color: white;
 }
-
-
 .navbar-default .navbar-nav > li > .nav-header {
-  color:white;
+    color: white;
 }
-
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color:#FF0049;
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FF0049;
 }
-
-.nav-text{
-  font-size: 12px;
+.nav-text {
+    font-size: 12px;
 }
-
-.navbar-default{
+.navbar-default {
     background: transparent;
-    border:none !important;
-    position:fixed;
-
+    border: none !important;
+    position: fixed;
 }
-
-
-
 .dropdown-menu {
-    border:none !important;
-    
+    border: none !important;
 }
-
-
-
-
-
 /* Main Intro with Video Play Button */
 
 .title {
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.4), 
-      rgba(0, 0, 1, 0.4)
-      ),url(../images/rr-main.jpg);
+    background: linear-gradient( rgba(0, 0, 1, 0.4), rgba(0, 0, 1, 0.4)), url(../images/rr-main.jpg);
     background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size:cover;
-  background-color:white;
-  text-align:center;
-  padding-top:250px;  
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-color: white;
+    text-align: center;
+    padding-top: 250px;
 }
-
-
-
-
-
-
 /*Main Block with information for RR */
 
 .main {
-  position: relative;
-  min-height:600px;
-  color:white;
+    position: relative;
+    min-height: 600px;
+    color: white;
 }
-
-
-
 .main img:first-child {
-  width: 120px;
-  height:auto;
-  padding-bottom:20px;
+    width: 120px;
+    height: auto;
+    padding-bottom: 20px;
 }
-
 .main img {
-  width:60px;
-  height:32px;
-  margin-top:60px;
+    width: 60px;
+    height: 32px;
+    margin-top: 60px;
 }
-
 .main h1 {
-  font-size: 50px;
+    font-size: 50px;
 }
-
 .jumbotron {
-  padding:none;
-  text-align:left;
-  background-color:white;
+    padding: none;
+    text-align: left;
+    background-color: white;
 }
-
-
-
-
-
-
-.intro {
+.intro {} .intro h1,
+h2,
+p {
+    padding-bottom: 5px;
 }
-
-.intro h1, h2, p{
-  padding-bottom: 5px;
-}
-
 .intro h2 {
-  font-size:14px;
+    font-size: 14px;
 }
-
 .intro .image {
-  text-align:center;
+    text-align: center;
 }
 .intro img {
-  height:80%;
-  width:80%;
+    height: 80%;
+    width: 80%;
 }
-
 .image {
-  text-align:center;
-  padding-left: auto;
-  padding-right:auto;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
 }
-
-
 .border-line {
-  background-color: 
-  #FF0049;
-  height: 2px;
-  width: 150px;
-  display: inline-block;
+    background-color: #FF0049;
+    height: 2px;
+    width: 150px;
+    display: inline-block;
 }
-
 .main-color {
-  color:#FF0049;
+    color: #FF0049;
 }
-
-
-
-
-
 .supporting {
-
-  min-height:350px;
-  text-align: left;
-  color:white;
-  display:block;
+    min-height: 350px;
+    text-align: left;
+    color: white;
+    display: block;
 }
-
-
 .supporting .zoom-gallery {
-  text-align:center;
-  padding-bottom: 32px;
+    text-align: center;
+    padding-bottom: 32px;
 }
-
-.supporting .zoom-gallery img{
-  padding-top:16px;
-  padding-left:20px;
-  width:auto;
-  max-height:200px;
+.supporting .zoom-gallery img {
+    padding-top: 16px;
+    padding-left: 20px;
+    width: auto;
+    max-height: 200px;
 }
-
-
-
 .line-up {
-  padding-top:50px;
-  padding-bottom: 50px;
-  text-align:center;
-  min-height:700px;
-  color:black;
-  /* Rectangle 6: */
-background-color:#F8F8F8;
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.7), 
-      rgba(0, 0, 1, 0.7)
-      ), url("../images/line-up.png");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  color:white;
-  display:block;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    min-height: 700px;
+    color: black;
+    /* Rectangle 6: */
+    
+    background-color: #F8F8F8;
+    background: linear-gradient( rgba(0, 0, 1, 0.7), rgba(0, 0, 1, 0.7)), url("../images/line-up.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    color: white;
+    display: block;
 }
-
 .line-up h2:first-child {
-  padding-top:24px;
+    padding-top: 24px;
 }
-
-.line-up h2{
-  padding-bottom:-10px;
-  font-size: 24px;
+.line-up h2 {
+    padding-bottom: -10px;
+    font-size: 24px;
 }
-
-
-
-
 .footer {
-  padding: 30px;
-  background-color:#EEEEEE;
-  text-align:center;
-  min-height:150px;
+    padding: 30px;
+    background-color: #EEEEEE;
+    text-align: center;
+    min-height: 150px;
 }
-
 .footer img {
-  height:30px;
-  width:30px;
-  margin:5px 10px 10px auto;
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px 10px auto;
 }
-
-
-
-
-
-
-
-
-
-
 /*Individual Page's CSS for other links such as about.html and others    */
 
-
-
 .about-header {
-  min-height:600px;
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.6), 
-      rgba(0, 0, 1, 0.6)
-      ), url("../images/about.jpg");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:300px;
-  padding-left:24px;
-
-  text-align:left;
+    min-height: 600px;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 300px;
+    padding-left: 24px;
+    text-align: left;
 }
-.about-header h1{
-  font-weight:bold;
+.about-header h1 {
+    font-weight: bold;
 }
-
-
-.about-header, .organization-header, .apply-header, .sponsor-header,.contact-header, .donate-header, .sponsors-header,.liaison-header {
-  font-size:2em;
+.about-header,
+.organization-header,
+.apply-header,
+.sponsor-header,
+.contact-header,
+.donate-header,
+.sponsors-header,
+.liaison-header {
+    font-size: 2em;
 }
-
-
-.about-section > .jumbotron{
-  text-align: center;
+.about-section > .jumbotron {
+    text-align: center;
 }
-
 .about-section p {
-  font-size: 16px;
-  text-align:left;
+    font-size: 16px;
+    text-align: left;
 }
-
-
-.about-section, .board h1{
-  margin-bottom: 24px;
+.about-section,
+.board h1 {
+    margin-bottom: 24px;
 }
-
-.about-section img{
-  margin:50px 0 0 0 ; 
-  max-height:60%;
-  width: 60%;
+.about-section img {
+    margin: 50px 0 0 0;
+    max-height: 60%;
+    width: 60%;
 }
-
 .shadow {
-  box-shadow: 2px 5px 5px #888888;
+    box-shadow: 2px 5px 5px #888888;
 }
 .border-line-2 {
-  background-color: #00C874;
-  height: 2px;
-  width: 150px;
-  display: inline-block;
+    background-color: #00C874;
+    height: 2px;
+    width: 150px;
+    display: inline-block;
 }
-
 .border-line-3 {
-  background-color: rgb(96,126,246);
-  height: 2px;
-  width: 150px;
-  display: inline-block;
+    background-color: rgb(96, 126, 246);
+    height: 2px;
+    width: 150px;
+    display: inline-block;
 }
 .about-section .zoom-gallery {
-  text-align:center;
+    text-align: center;
 }
-
-.about-section-2{
-  padding-top:50px;
-  padding-bottom:50px;
-  min-height: 200px;
-  text-align: center;
+.about-section-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 200px;
+    text-align: center;
 }
-
 .page-breaker {
-  min-height:300px;
-      background: linear-gradient(
-      rgba(0, 0, 1, 0.7), 
-      rgba(0, 0, 1, 0.7)
-      ), url("../images/what_we_do.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-origin: padding-box;
-  background-size: cover;
-    color:white;
-  text-align:center;
-
-
+    min-height: 300px;
+    background: linear-gradient( rgba(0, 0, 1, 0.7), rgba(0, 0, 1, 0.7)), url("../images/what_we_do.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-origin: padding-box;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
-
 .organization-header {
-  min-height:600px;
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.6), 
-      rgba(0, 0, 1, 0.6)
-      ), url("../images/organization.jpg");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:300px;
-  padding-left:24px;
-
-  text-align:left;
+    min-height: 600px;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 300px;
+    padding-left: 24px;
+    text-align: left;
 }
-
 .organization-header h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
-
 .liaison-header {
-  min-height:600px;
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.6), 
-      rgba(0, 0, 1, 0.6)
-      ), url("../images/liaison.jpg");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:300px;
-  padding-left:24px;
-  text-align:left;
+    min-height: 600px;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 300px;
+    padding-left: 24px;
+    text-align: left;
 }
-
 .liaison-header h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
-
-.board  h3 {
-  text-align:center;
-  margin-bottom: 50px;
+.board h3 {
+    text-align: center;
+    margin-bottom: 50px;
 }
-
-.board{
- text-align:center;
+.board {
+    text-align: center;
 }
-
 .board h4 {
-  margin-top:24px;
+    margin-top: 24px;
 }
 .board p {
-  margin-top:24px;
-  text-align: left;
+    margin-top: 24px;
+    text-align: left;
 }
-
-
-
 .board {
-  padding-top:50px;
+    padding-top: 50px;
 }
-
-
-
-
 /*Apply Page CSS */
 
-
 .apply-header {
-  min-height: 600px;
-  background: linear-gradient(
-      rgba(0, 0, 1, 0.6), 
-      rgba(0, 0, 1, 0.6)
-      ), url("../images/apply.jpg");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:300px;
-  padding-left:24px;
-  text-align:left;
-
+    min-height: 600px;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/apply.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 300px;
+    padding-left: 24px;
+    text-align: left;
 }
-
 .apply-header h1 {
-  font-weight:bold;
+    font-weight: bold;
 }
-
-.apply h2{
-  text-align:left;
+.apply h2 {
+    text-align: left;
 }
-
-
 .left {
-  text-align:left;
+    text-align: left;
 }
-
 .btn {
-  text-decoration: none;
-  text-align:center;
-  background-color: white;
-  border:2px solid #00C874;
-  color: black;
-  font-size: 24px;
-  padding: 8px 30px;
-  display:block;
-  margin:auto;
-  max-width:400px; 
-  border-radius:0;
-  margin-bottom:50px;
-  text-decoration: none;
-
-}
-
-.btn:hover {
-  background: #00C874;
-  color:white;
-  cursor: pointer; 
-  transition: .2s; 
-  text-decoration: none;
-
-}
-
-
-
-
-
-/*Contact Us CSS Page    */
-.contact-header {
-  min-height:200px;
-  background: linear-gradient(
-      rgba(255, 90, 45, 0.6), 
-      rgba(255, 90, 45, 0.6)
-      ), url("../images/rr-logo.png");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left top;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:100px;
-  text-align:center;
-}
-
-
-.contact {
-  margin-top:100px;
-  margin-bottom:50px;
-}
-
-.contact label{
-  padding-top:10px;
-}
-
-
-.contact button{
-  margin-top:10px;
-}
-
-.faq {
-  margin-bottom:100px;
-}
-
-.faq h1 {
-  text-align:center;
-  padding-bottom:24px;
-  font-size:32px;
-}
-
-.faq h3 {
-  padding-bottom:10px;
-}
-
-.faq p {
-  padding-bottom:10px;
-}
-
-.faq a {
-  color:black;
-}
-
-iframe {
-  padding-left: auto;
-  padding-right: auto;
-}
-
-span {
-  font-weight: bold;
-}
-
-
-/* Donate CSS page */
-.donate-header {
-  min-height:200px;
-  background: linear-gradient(
-      rgba(125, 28, 28, 0.6), 
-      rgba(125, 28, 28, 0.6)
-      ), url("../images/rr-logo.png");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left top;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:100px;
-  text-align:center;
-}
-
-.btn-donate {
-  text-decoration: none;
-  text-align:center;
-  background-color: white;
-  border:2px solid #7D1C1C;
-  color: black;
-  font-size: 18px;
-  padding: 8px 30px;
-  display:block;
-  margin:auto;
-  width:240px; 
-  border-radius:0;
-  margin-bottom:200px;
-  margin-top:50px;
     text-decoration: none;
-
+    text-align: center;
+    background-color: white;
+    border: 2px solid #00C874;
+    color: black;
+    font-size: 24px;
+    padding: 8px 30px;
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 0;
+    margin-bottom: 50px;
+    text-decoration: none;
 }
-
-.btn-donate:hover {
-  background: #B17777;
-  color:white;
-  cursor: pointer; 
-  transition: .2s; 
-  text-decoration: none;
+.btn:hover {
+    background: #00C874;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
 }
+/*Contact Us CSS Page    */
 
-.border-line-donate {
-  background-color: 
-  #7D1C1C;
-  height: 2px;
-  width: 150px;
-  display: inline-block;
+.contact-header {
+    min-height: 200px;
+    background: linear-gradient( rgba(255, 90, 45, 0.6), rgba(255, 90, 45, 0.6)), url("../images/rr-logo.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
 }
-
-
-
-/*Sponsors CSS page */
-.sponsors-header {
-  min-height:200px;
-  background: linear-gradient(
-     rgba(253, 192, 62, 0.6), 
-      rgba(253, 192, 62, 0.6)
-      ), url("../images/rr-logo.png");
-  display: block;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left top;
-  background-clip: border-box;
-  background-origin: padding-box;
-  color:white;
-  padding-top:100px;
-  text-align:center;
+.contact {
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
-
-
-
-@media (max-width: 960px) {
-  .main {
-    height: 540px; 
-  }
-  .main video {
-    height: 540px; 
-    width: 960px;
-  }
-  .main h1 {
+.contact label {
+    padding-top: 10px;
+}
+.contact button {
+    margin-top: 10px;
+}
+.faq {
+    margin-bottom: 100px;
+}
+.faq h1 {
+    text-align: center;
+    padding-bottom: 24px;
     font-size: 32px;
-  }
 }
+.faq h3 {
+    padding-bottom: 10px;
+}
+.faq p {
+    padding-bottom: 10px;
+}
+.faq a {
+    color: black;
+}
+iframe {
+    padding-left: auto;
+    padding-right: auto;
+}
+span {
+    font-weight: bold;
+}
+/* Donate CSS page */
 
+.donate-header {
+    min-height: 200px;
+    background: linear-gradient( rgba(125, 28, 28, 0.6), rgba(125, 28, 28, 0.6)), url("../images/rr-logo.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+.btn-donate {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #7D1C1C;
+    color: black;
+    font-size: 18px;
+    padding: 8px 30px;
+    display: block;
+    margin: auto;
+    width: 240px;
+    border-radius: 0;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.btn-donate:hover {
+    background: #B17777;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+}
+.border-line-donate {
+    background-color: #7D1C1C;
+    height: 2px;
+    width: 150px;
+    display: inline-block;
+}
+/*Sponsors CSS page */
 
-
+.sponsors-header {
+    min-height: 200px;
+    background: linear-gradient( rgba(253, 192, 62, 0.6), rgba(253, 192, 62, 0.6)), url("../images/rr-logo.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+@media (max-width: 960px) {
+    .main {
+        height: 540px;
+    }
+    .main video {
+        height: 540px;
+        width: 960px;
+    }
+    .main h1 {
+        font-size: 32px;
+    }
+}
 @media only screen and (max-width: 960px) {
-    .navbar-default{
+    .navbar-default {
         background: black;
-        border:none !important;
-        position:fixed;
-        color:white;
-
-      }
+        border: none !important;
+        position: fixed;
+        color: white;
+    }
     .title {
-      background-attachment: scroll;
-
+        background-attachment: scroll;
     }
-    }
+}
