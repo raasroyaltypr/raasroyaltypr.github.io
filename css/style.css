@@ -586,7 +586,7 @@ span {
   background: #B17777;
   color:white;
   cursor: pointer; 
-  transition: background .1s; 
+  transition: .2s; 
   text-decoration: none;
 }
 
