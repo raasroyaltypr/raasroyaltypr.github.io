@@ -267,7 +267,7 @@ p {
     -o-background-size: cover;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat center center fixed;
     color: white;
-    padding-top: 40vh;
+    padding-top: 35vh;
     padding-left: 24px;
     text-align: left;
 }
@@ -288,7 +288,7 @@ p {
     -o-background-size: cover;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
     color: white;
-    padding-top: 40vh;
+    padding-top: 35vh;
     padding-left: 24px;
     text-align: left;
 }
