@@ -175,15 +175,14 @@ p {
 .about-header {
     width: auto;
     height: 80vh;
-    perspective: 1px;
-    transform: translateZ(-1px);
-    overflow-x: hidden;
-    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") no-repeat center center fixed;
+    background-color: white;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg");
     color: white;
     padding-top: 40vh;
     padding-left: 24px;
@@ -495,6 +494,6 @@ span {
     }
 
     .apply-header, .about-header, .organization-header, .liaison-header {
-        background-attachment:fixed;
+        background-attachment:scroll;
     }
     }
