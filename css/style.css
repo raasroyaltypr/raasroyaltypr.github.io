@@ -179,7 +179,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") no-repeat center center fixed;
     color: white;
     padding-top: 300px;
     padding-left: 24px;
@@ -261,7 +261,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat center center fixed;
     color: white;
     padding-top: 300px;
     padding-left: 24px;
