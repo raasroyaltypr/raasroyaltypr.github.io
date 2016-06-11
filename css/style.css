@@ -9,6 +9,8 @@ html, body {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  color:#666666;
+ 
 }
 
 
@@ -213,10 +215,6 @@ background-color:#F8F8F8;
 
 }
 
-.line-up h1{
-  
-}
-
 .line-up h2:first-child {
   padding-top:24px;
 }
@@ -256,27 +254,32 @@ background-color:#F8F8F8;
 
 
 .about-header {
-  min-height:200px;
+  min-height:600px;
   background: linear-gradient(
-      rgba(0, 200, 116, 0.6), 
-      rgba(0, 200, 116,0.6)
-      ), url("../images/rr-logo.png");
+      rgba(0, 0, 1, 0.6), 
+      rgba(0, 0, 1, 0.6)
+      ), url("../images/about.jpg");
   display: block;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left top;
+  background-position: center center ;
   background-clip: border-box;
   background-origin: padding-box;
   color:white;
-  padding-top:100px;
-  text-align:center;
+  padding-top:300px;
+  padding-left:24px;
+
+  text-align:left;
+}
+.about-header h1{
+  font-weight:bold;
 }
 
 
-.about-header, .organization-header, .apply-header, .sponsor-header,.contact-header, .donate-header, .sponsors-header {
+.about-header, .organization-header, .apply-header, .sponsor-header,.contact-header, .donate-header, .sponsors-header,.liaison-header {
   font-size:2em;
-
 }
+
 
 .about-section > .jumbotron{
   text-align: center;
@@ -298,6 +301,9 @@ background-color:#F8F8F8;
   width: 60%;
 }
 
+.shadow {
+  box-shadow: 2px 5px 5px #888888;
+}
 .border-line-2 {
   background-color: #00C874;
   height: 2px;
@@ -340,20 +346,48 @@ background-color:#F8F8F8;
 }
 
 .organization-header {
-  min-height:200px;
+  min-height:600px;
   background: linear-gradient(
-      rgba(96,126,246, 0.6), 
-      rgba(96,126,246, 0.6)
-      ), url("../images/rr-logo.png");
+      rgba(0, 0, 1, 0.6), 
+      rgba(0, 0, 1, 0.6)
+      ), url("../images/organization.jpg");
   display: block;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left top ;
+  background-position: right center ;
   background-clip: border-box;
   background-origin: padding-box;
   color:white;
-  padding-top:100px;
-  text-align:center;
+  padding-top:300px;
+  padding-left:24px;
+
+  text-align:left;
+}
+
+.organization-header h1 {
+  font-weight: bold;
+}
+
+.liaison-header {
+  min-height:600px;
+  background: linear-gradient(
+      rgba(0, 0, 1, 0.6), 
+      rgba(0, 0, 1, 0.6)
+      ), url("../images/liaison.jpg");
+  display: block;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right center ;
+  background-clip: border-box;
+  background-origin: padding-box;
+  color:white;
+  padding-top:300px;
+  padding-left:24px;
+  text-align:left;
+}
+
+.liaison-header h1 {
+  font-weight: bold;
 }
 
 .board  h3 {
@@ -386,25 +420,32 @@ background-color:#F8F8F8;
 
 
 .apply-header {
-  min-height:200px;
+  min-height: 600px;
   background: linear-gradient(
-      rgba(259, 51, 158, 0.6), 
-      rgba(259, 51, 158, 0.6)
-      ), url("../images/rr-logo.png");
+      rgba(0, 0, 1, 0.6), 
+      rgba(0, 0, 1, 0.6)
+      ), url("../images/apply.jpg");
   display: block;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left top;
+  background-position: center center;
   background-clip: border-box;
   background-origin: padding-box;
   color:white;
-  padding-top:100px;
-  text-align:center;
+  padding-top:300px;
+  padding-left:24px;
+  text-align:left;
+
 }
 
-.apply h1{
-  margin-bottom:100px;
+.apply-header h1 {
+  font-weight:bold;
 }
+
+.apply h2{
+  text-align:left;
+}
+
 
 .left {
   text-align:left;
@@ -414,26 +455,25 @@ background-color:#F8F8F8;
   text-decoration: none;
   text-align:center;
   background-color: white;
-  border:2px solid #FF85C5;
+  border:2px solid #00C874;
   color: black;
-  font-size: 18px;
+  font-size: 24px;
   padding: 8px 30px;
   display:block;
   margin:auto;
-  width:240px; 
+  max-width:400px; 
   border-radius:0;
-  margin-bottom:200px;
-  margin-top:50px;
-    text-decoration: none;
+  margin-bottom:50px;
+  text-decoration: none;
 
 }
 
 .btn:hover {
-  background: #FF85C5;
+  background: #00C874;
   color:white;
   cursor: pointer; 
-  transition: background .1s; 
-    text-decoration: none;
+  transition: .2s; 
+  text-decoration: none;
 
 }
 
@@ -486,7 +526,6 @@ background-color:#F8F8F8;
 
 .faq h3 {
   padding-bottom:10px;
-  color:#FF9C81;
 }
 
 .faq p {
