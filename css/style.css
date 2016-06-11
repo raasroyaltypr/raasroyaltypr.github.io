@@ -452,6 +452,7 @@ span {
     padding-top: 100px;
     text-align: center;
 }
+
 @media (max-width: 960px) {
     .main {
         height: 540px;
