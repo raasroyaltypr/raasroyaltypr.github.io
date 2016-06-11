@@ -169,18 +169,22 @@ p {
 /*Individual Page's CSS for other links such as about.html and others    */
 
 .about-header {
-    min-height: 600px;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg");
-    display: block;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
+    width: 100%;
+    height: 80vh;
+    perspective: 1px;
+    transform: translateZ(-1px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
     color: white;
     padding-top: 300px;
     padding-left: 24px;
     text-align: left;
+}
 }
 .about-header h1 {
     font-weight: bold;
@@ -247,14 +251,17 @@ p {
     text-align: center;
 }
 .organization-header {
-    min-height: 600px;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg");
-    display: block;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
+    width: 100%;
+    height: 80vh;
+    perspective: 1px;
+    transform: translateZ(-1px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
     color: white;
     padding-top: 300px;
     padding-left: 24px;
@@ -264,14 +271,17 @@ p {
     font-weight: bold;
 }
 .liaison-header {
-    min-height: 600px;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg");
-    display: block;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right center;
-    background-clip: border-box;
-    background-origin: padding-box;
+    width: 100%;
+    height: 80vh;
+    perspective: 1px;
+    transform: translateZ(-1px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
     color: white;
     padding-top: 300px;
     padding-left: 24px;
@@ -300,14 +310,17 @@ p {
 /*Apply Page CSS */
 
 .apply-header {
-    min-height: 600px;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/apply.jpg");
-    display: block;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
+    width: 100%;
+    height: 80vh;
+    perspective: 1px;
+    transform: translateZ(-1px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/apply.jpg") no-repeat center center fixed;
     color: white;
     padding-top: 300px;
     padding-left: 24px;
