@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta content="Indiana University's Premier Garba Raas Competition" name=
-    "description">
+    <meta content="Indiana University's Premier Garba Raas Competition" name="description">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Roundtable</title><!-- Bootstrap -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/animsition.min.css">
     <link href="css/loaders.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel=
     'stylesheet' type='text/css'>
@@ -21,6 +21,13 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<div
+  class="animsition"
+  data-animsition-in-class="fade-in"
+  data-animsition-in-duration="1000"
+  data-animsition-out-class="fade-out"
+  data-animsition-out-duration="800"
+>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <button aria-controls="navbar" aria-expanded="false" class=
@@ -28,7 +35,7 @@
             "collapse" type="button"><span class="sr-only">Toggle
             navigation</span> <span class="icon-bar"></span> <span class=
             "icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="index.html">RAAS ROYALTY</a>
+            <a class="navbar-brand animsition-link" href="index.html">RAAS ROYALTY</a>
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right nav-text">
                     <!-- Menu Items -->
@@ -67,7 +74,7 @@
     <div class="organization-header">
         <div class="container">
             <h1>The Roundtable</h1>
-            <h3>Meet the IU students that make it happen.</h3>
+            <h3>Meet the IU students that make it all happen.</h3>
         </div>
     </div>
     <div class="board">
@@ -518,6 +525,8 @@
      
     <script src="js/bootstrap.min.js">
     </script> 
+        <script src="js/animsition.min.js"></script>
+
     <script src="js/jquery.easing.min.js">
     </script> 
     <script src="js/jquery.waypoints.min.js">
@@ -528,5 +537,6 @@
     </script> 
     <script src="js/scrolling-nav.js">
     </script>
+    </div>
 </body>
 </html>

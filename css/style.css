@@ -39,7 +39,7 @@ p {
     color: #FF0049;
 }
 .nav-text {
-    font-size: 12px;
+    font-size: .9em;
 }
 .navbar-default {
     background: transparent;
@@ -183,10 +183,11 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg");
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") center left;
     color: white;
-    padding-top: 40vh;
-    padding-left: 24px;
+    padding-top: 50vmin;
+    padding-bottom:5vh;
+    padding-left: 18px;
     text-align: left;
 }
 .about-header h1 {
@@ -267,8 +268,9 @@ p {
     -o-background-size: cover;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat center center fixed;
     color: white;
-    padding-top: 35vh;
-    padding-left: 24px;
+    padding-top: 50vmin;
+    padding-bottom:5vh;
+    padding-left: 18px;
     text-align: left;
 }
 
@@ -288,8 +290,9 @@ p {
     -o-background-size: cover;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
     color: white;
-    padding-top: 35vh;
-    padding-left: 24px;
+    padding-top: 50vmin;
+    padding-bottom:5vh;
+    padding-left: 18px;
     text-align: left;
 }
 .liaison-header h1 {
@@ -327,8 +330,9 @@ p {
     -o-background-size: cover;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/apply.jpg") no-repeat center center scroll;
     color: white;
-    padding-top: 40vh;
-    padding-left: 24px;
+    padding-top: 50vmin;
+    padding-bottom:5vh;
+    padding-left: 18px;
     text-align: left;
 }
 .apply-header h1 {
@@ -482,6 +486,9 @@ span {
     .main h1 {
         font-size: 32px;
     }
+
+    .navbar-default .navbar-brand {
+        font-size:1em;
 }
 @media only screen and (max-width: 960px) {
     .navbar-default {
