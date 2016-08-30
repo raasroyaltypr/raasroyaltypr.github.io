@@ -14,12 +14,12 @@ html {
     max-height: 100%;
 }
 
-@media(min-width:767px) {
+@media(min-width:970px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .4s linear,padding .4s linear;
+        -moz-transition: background .4s linear,padding .4s linear;
+        transition: background .4s linear,padding .4s linear;
     }
 
     .top-nav-collapse {

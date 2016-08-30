@@ -44,10 +44,35 @@ p {
 .navbar-default {
     background: transparent;
     border: none !important;
-    position: fixed;
 }
 .dropdown-menu {
     border: none !important;
+    border-radius: 0;
+    color:black !important; 
+    background-color: white;
+}
+
+.dropdown-menu>li>a {
+    color:black;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: transparent;
+    color:#FF0049;
+    transition: .3s;
+}
+
+
+
+.navbar-default .navbar-nav>.open>a.  {
+    color:white; 
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color:#FF0049;
+    background-color: transparent;
+
+
 }
 /* Main Intro with Video Play Button */
 
@@ -266,7 +291,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat left top fixed;
     color: white;
     padding-top: 50vmin;
     padding-bottom:5vh;
@@ -390,6 +415,17 @@ p {
 }
 .contact button {
     margin-top: 10px;
+    background-color:rgba(255, 90, 45, 0.6);
+    border:none;
+    width:70px;
+    height:30px;
+    color:white;
+}
+
+.contact button:hover {
+    transition: .3s;
+    color:black;
+
 }
 .faq {
     margin-bottom: 100px;
@@ -447,7 +483,7 @@ span {
     text-decoration: none;
 }
 .btn-donate:hover {
-    background: #B17777;
+    background: #7D1C1C;
     color: white;
     cursor: pointer;
     transition: .2s;
@@ -475,6 +511,14 @@ span {
     text-align: center;
 }
 
+
+/* Mobile CSS */
+@media(max-width: 480px) {
+    .title {
+        background-position: left center;
+    }
+
+}
 @media (max-width: 960px) {
     .main {
         height: 540px;
@@ -490,18 +534,32 @@ span {
     .navbar-default .navbar-brand {
         font-size:1em;
 }
+}
 @media only screen and (max-width: 960px) {
     .navbar-default {
-        background: black;
+        background: white;
         border: none !important;
         position: fixed;
-        color: white;
+        color: black;
     }
     .title {
         background-attachment: scroll;
     }
+    .navbar-default .navbar-nav > li > a {
+        color: black;
+        text-align: center;
+}
 
     .apply-header, .about-header, .organization-header, .liaison-header {
         background-attachment:scroll;
+    }
+
+    .navbar-default .navbar-brand {
+        color:black;
+    }
+
+    .navbar-default .dropdown-menu>li>a {
+        color:black;
+        text-align: center;
     }
     }
