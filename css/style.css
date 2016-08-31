@@ -77,6 +77,24 @@ p {
 
 
 }
+
+.navbar-default button{
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    height:4px;
+    width:30px;
+    background-color:black;
+}
+
+.navbar-default .navbar-toggle {
+    border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #FF0049;
+    transition: .3s;
+}
 /* Main Intro with Video Play Button */
 
 .title {
@@ -90,12 +108,12 @@ p {
     background-color: white;
     text-align: center;
     padding-top: 250px;
+    height:100vh;
 }
 /*Main Block with information for RR */
 
 .main {
     position: relative;
-    min-height: 600px;
     color: white;
 }
 .main img:first-child {
@@ -204,6 +222,10 @@ p {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+.row.footer-links{
+    margin-bottom:0px;
+}
 .footer-links>a {
     padding:10px;
     color:black;
@@ -218,7 +240,7 @@ p {
     transition: .2s;
 }
 
-.footer-links a,p {
+.footer-links a,.footer-links p {
     color:black;
     text-decoration:none;
     text-align: center;
@@ -265,8 +287,9 @@ p {
     text-align: center;
 }
 .about-section p {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2;
 }
 .about-section,
 .board h1 {

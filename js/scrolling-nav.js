@@ -1,4 +1,8 @@
 //jQuery to collapse the navbar on scroll
+$(document).ready(function() {
+    // put all your jQuery goodness in here.
+
+
 var mq = window.matchMedia("max-width: 961px)");
 
     if (document.documentElement.clientWidth > 961) {
@@ -7,8 +11,14 @@ var mq = window.matchMedia("max-width: 961px)");
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "white", "color": "black", "box-shadow": "0 0 2px 0 #ccc"});
         $(".navbar-brand").css({"color":"black"});
-        $(".navbar-right>ul>li>a").css({"color": "black"});
+        $(".navbar-right>ul>li>a").css({"color": "black", });
         $(".rr-nav-links").css({"color":"black"});
+        $("#hoverLink, #hoverLinks").hover(
+            function() {
+                $(this).css("color", "#FF0049").css("transition", ".3s");
+            }, function() {
+                 $(this).css("color", "black").css("transition", ".3s");
+            });
 
 
     }
@@ -17,12 +27,21 @@ var mq = window.matchMedia("max-width: 961px)");
         $(".navbar-fixed-top").css({"background": "transparent", "color": "white", "box-shadow": "none"});
         $(".navbar-brand").css({"color":"white"});
         $(".rr-nav-links").css({"color":"white"});
+        $("#hoverLink, #hoverLinks").hover(
+            function() {
+                $(this).css("color", "#FF0049").css("transition", ".3s");
+                },
+            function() {
+                $(this).css("color", "white").css("transition", ".3s");
+            });
 
 
     }
 });
 
     }
+
+
 
 
     // the width of browser is more then 700px
@@ -37,5 +56,7 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+});
+
 });
 
