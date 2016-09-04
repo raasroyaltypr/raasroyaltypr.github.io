@@ -83,8 +83,7 @@ p {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    height:4px;
-    width:30px;
+    height:2px;
     background-color:black;
 }
 
@@ -567,6 +566,38 @@ span {
     text-align: center;
 }
 
+
+
+
+
+/*CSS for Hamburger Menu Transition        */
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+      top: 0px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 0px;
+}
+
+.navbar-toggle .icon-bar {
+      position: relative;
+      transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+      top: 6px;
+      transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+      background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+      top: -6px;
+      transform: rotate(-45deg);
+}
 
 /* Mobile CSS */
 @media(max-width: 480px) {

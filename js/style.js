@@ -1,3 +1,6 @@
+
+//Page loader js
+
 $(document).ready(function() {
   $(".animsition").animsition({
     inClass: 'fade-in',
@@ -25,19 +28,23 @@ $(document).ready(function() {
 
 
 
-      $(document).ready(function() {
-        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-          disableOn: 700,
-          type: 'iframe',
-          mainClass: 'mfp-fade',
-          removalDelay: 160,
-          preloader: false,
 
-          fixedContentPos: false
-        });
-      });
+//Pop up for youtube playback
+$(document).ready(function() {
+  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+    disableOn: 700,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+
+    fixedContentPos: false
+  });
+});
 
 
+
+//Zoom gallery js
       $(document).ready(function() {
         $('.zoom-gallery').magnificPopup({
           delegate: 'a',
@@ -64,6 +71,16 @@ $(document).ready(function() {
           
         });
       });
+
+
+
+//JS For Hamburger menu transition
+$(document).ready(function () {
+        $(".navbar-toggle").on("click", function () {
+            $(this).toggleClass("active");
+        });
+    });
+
 
 
   
