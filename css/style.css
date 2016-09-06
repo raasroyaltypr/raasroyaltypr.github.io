@@ -330,6 +330,14 @@ p {
     width: 150px;
     display: inline-block;
 }
+
+.border-line-4 {
+    background-color: #00BFFF;
+    height: 2px;
+    width: 150px;
+    display: inline-block;
+}
+
 .about-section .zoom-gallery {
     text-align: center;
 }
@@ -361,7 +369,7 @@ p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat left top fixed;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat center top fixed;
     color: white;
     padding-top: 50vmin;
     padding-bottom:5vh;
@@ -560,6 +568,31 @@ span {
     transition: .2s;
     text-decoration: none;
 }
+
+
+.btn-apply {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #00BFFF;
+    color: black;
+    font-size: 24px;
+    padding: 8px 30px;
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 0;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.btn-apply:hover {
+    background:#00BFFF;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+}
+
 .border-line-donate {
     background-color: #7D1C1C;
     height: 2px;
