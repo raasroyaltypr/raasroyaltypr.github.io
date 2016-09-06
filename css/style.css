@@ -624,6 +624,10 @@ span {
         display: block;
     }
 
+    .nav>li, .dropdown-menu {
+        font-size: 24px;
+    }
+
 }
 @media (max-width: 960px) {
     .main {
