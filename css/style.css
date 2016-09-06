@@ -48,11 +48,15 @@ p {
     background: transparent;
     border: none !important;
 }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color:white !important;
+}
 .dropdown-menu {
     border: none !important;
     border-radius: 0;
     color:black !important; 
-    background-color: white;
+    background-color: ;
 }
 
 .dropdown-menu>li>a {
@@ -659,6 +663,10 @@ span {
 
     .nav>li, .dropdown-menu {
         font-size: 24px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding:20px;
     }
 
 }
