@@ -657,10 +657,20 @@ span {
     .title {
         background-position: left center;
     }
+
+    .about-header {
+        background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") center center;
+
+}
     .footer-links a {
         display: block;
     }
 
+}
+
+/* Ipad CSS */
+
+@media (max-width: 760px) {
     .nav>li, .dropdown-menu {
         font-size: 24px;
     }
@@ -668,7 +678,6 @@ span {
     .navbar-default .navbar-nav > li > a {
         padding:20px;
     }
-
 }
 @media (max-width: 960px) {
     .main {
