@@ -620,9 +620,6 @@ span {
 }
 
 
-
-
-
 /*CSS for Hamburger Menu Transition        */
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -659,7 +656,7 @@ span {
     }
 
     .about-header {
-        background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") center center;
+         background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") center center;
 
 }
     .footer-links a {

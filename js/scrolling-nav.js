@@ -9,7 +9,7 @@ var mq = window.matchMedia("max-width: 961px)");
     $(window).scroll(function() {
     if ($(".navbar").offset().top > 25) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $(".navbar-fixed-top").css({"background": "white", "color": "black", "box-shadow": "0 0 2px 0 #ccc"});
+        $(".navbar-fixed-top").css({"background": "white", "color": "black", "box-shadow": "0 0 20px 0 #ccc"});
         $(".navbar-brand").css({"color":"black"});
         $(".navbar-right>ul>li>a").css({"color": "black", });
         $(".rr-nav-links").css({"color":"black"});
