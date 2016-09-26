@@ -13,7 +13,7 @@ body {
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    color: #666666;
+    color: #4d4d4d;
     text-align: justify;
 }
 .container {
@@ -444,6 +444,9 @@ p {
 }
 .apply-header h1 {
     font-weight: bold;
+}
+.apply {
+    margin-top: 35px;
 }
 .apply h2 {
     text-align: left;
