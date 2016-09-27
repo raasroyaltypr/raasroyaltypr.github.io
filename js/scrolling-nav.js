@@ -13,7 +13,7 @@ var mq = window.matchMedia("max-width: 961px)");
         $(".navbar-brand").css({"color":"black"});
         $(".navbar-right>ul>li>a").css({"color": "black", });
         $(".rr-nav-links").css({"color":"black"});
-        $("#hoverLink, #hoverLinks").hover(
+        $("#hoverLink").hover(
             function() {
                 $(this).css("color", "#FF0049").css("transition", ".3s");
             }, function() {
@@ -22,19 +22,25 @@ var mq = window.matchMedia("max-width: 961px)");
 
 
     }
-    else{
+    if ($(".navbar").offset().top < 25) {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
         $(".navbar-fixed-top").css({"background": "transparent", "color": "white", "box-shadow": "none"});
         $(".navbar-brand").css({"color":"white"});
         $(".rr-nav-links").css({"color":"white"});
-        $("#hoverLink, #hoverLinks").hover(
+        $("#hoverLink").hover(
             function() {
                 $(this).css("color", "#FF0049").css("transition", ".3s");
                 },
             function() {
                 $(this).css("color", "white").css("transition", ".3s");
             });
-
+        $("#hoverLinks").hover(
+            function() {
+                $(this).css("color", "#FF0049").css("transition", ".3s");
+                },
+            function() {
+                $(this).css("color", "black").css("transition", ".3s");
+            });
 
     }
 });
