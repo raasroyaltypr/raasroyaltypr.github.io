@@ -724,7 +724,7 @@ span {
 }
 
     .apply-header, .about-header, .organization-header, .liaison-header {
-        background-attachment:scroll;
+        background-attachment:fixed;
         padding-top: 7em;
     }
 
