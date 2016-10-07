@@ -138,7 +138,7 @@ img:focus {
     -o-background-size: auto;
     background-color: white;
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 14em;
     height:100vh;
 }
 /*Main Block with information for RR */
@@ -296,7 +296,7 @@ p {
     -o-background-size: auto;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/about.jpg") center left;
     color: white;
-    padding-top: 50vmin;
+    padding-top: 12em;
     padding-bottom:5vh;
     padding-left: 18px;
     text-align: left;
@@ -388,7 +388,7 @@ p {
     -o-background-size: auto;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/organization.jpg") no-repeat center top fixed;
     color: white;
-    padding-top: 50vmin;
+    padding-top: 12em;
     padding-bottom:5vh;
     padding-left: 18px;
     text-align: left;
@@ -410,7 +410,7 @@ p {
     -o-background-size:auto;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/liaison.jpg") no-repeat center center fixed;
     color: white;
-    padding-top: 50vmin;
+    padding-top: 12em;
     padding-bottom:5vh;
     padding-left: 18px;
     text-align: left;
@@ -449,7 +449,7 @@ p {
     -o-background-size: auto;
     background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/apply.jpg") no-repeat center center scroll;
     color: white;
-    padding-top: 50vmin;
+    padding-top: 12em;
     padding-bottom:5vh;
     padding-left: 18px;
     text-align: left;
@@ -725,6 +725,7 @@ span {
 
     .apply-header, .about-header, .organization-header, .liaison-header {
         background-attachment:scroll;
+        padding-top: 7em;
     }
 
     .navbar-default .navbar-brand {
