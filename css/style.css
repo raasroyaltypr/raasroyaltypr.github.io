@@ -16,8 +16,8 @@ body {
 }
 p {
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    color: #4d4d4d;
+    font-weight: 300;
+    color: #2E2E2E;
     text-align: justify;
 }
 
@@ -65,7 +65,7 @@ img:focus {
 .dropdown-menu {
     border: none !important;
     border-radius: 0;
-    color:black !important; 
+    color:black !important;
     background-color: ;
 }
 
@@ -97,7 +97,7 @@ img:focus {
 }
 
 .navbar-default .navbar-nav>.open>a.  {
-    color:white; 
+    color:white;
     background-color: transparent;
 }
 
@@ -217,7 +217,7 @@ p {
     min-height: 700px;
     color: black;
     /* Rectangle 6: */
-    
+
     background-color: #F8F8F8;
     background: linear-gradient( rgba(0, 0, 1, 0.7), rgba(0, 0, 1, 0.7)), url("../images/line-up.png");
     display: block;
@@ -346,6 +346,7 @@ p {
     height: 2px;
     width: 150px;
     display: inline-block;
+    margin:2em 0 5em;
 }
 
 .border-line-4 {
@@ -396,6 +397,15 @@ p {
 
 .organization-header h1 {
     font-weight: bold;
+}
+
+.board h2 {
+  margin-bottom: 1em;
+}
+.roundtable-img {
+  width:400px;
+  height: auto;
+  margin:5px;
 }
 .liaison-header {
     width: 100%;
@@ -677,6 +687,10 @@ span {
 }
     .footer-links a {
         display: block;
+    }
+
+    .roundtable-img {
+      width:300px;
     }
 
 }
