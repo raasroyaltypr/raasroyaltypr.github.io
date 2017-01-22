@@ -62,11 +62,19 @@ img:focus {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color:white !important;
 }
+
+.menu {
+  max-height: 400px !important;
+}
+
 .dropdown-menu {
     border: none !important;
     border-radius: 0;
     color:black !important;
     background-color: ;
+}
+.dropdown-menu li {
+  margin-bottom: .4em;
 }
 
 .dropdown-menu>li>a {
@@ -312,7 +320,8 @@ p {
 .contact-header,
 .donate-header,
 .sponsors-header,
-.liaison-header {
+.liaison-header,
+.exhibition-header {
     font-size: 2em;
 }
 .about-section > .jumbotron {
@@ -497,6 +506,25 @@ p {
     cursor: pointer;
     transition: .2s;
     text-decoration: none;
+}
+
+
+.exhibition-header {
+    width: 100%;
+    height: 80vh;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background: linear-gradient( rgba(0, 0, 1, 0.6), rgba(0, 0, 1, 0.6)), url("../images/photo4.jpg") no-repeat center center scroll;
+    color: white;
+    padding-top: 12em;
+    padding-bottom:5vh;
+    padding-left: 18px;
+    text-align: left;
 }
 /*Contact Us CSS Page    */
 
@@ -737,7 +765,7 @@ span {
         text-align: center;
 }
 
-    .apply-header, .about-header, .organization-header, .liaison-header {
+    .apply-header, .about-header, .organization-header, .liaison-header,.exhibition-header {
         background-attachment:scroll;
         padding-top: 7em;
     }
