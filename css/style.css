@@ -6,7 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
-    background-color: white;
+    background-color: #FDFDFD;
     max-width: 100%;
 }
 
@@ -144,7 +144,7 @@ img:focus {
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
-    background-color: white;
+    background-color: #FDFDFD;
     text-align: center;
     padding-top: 14em;
     height:100vh;
@@ -171,7 +171,7 @@ img:focus {
 .jumbotron {
     padding: none;
     text-align: left;
-    background-color:white;
+    background-color:#FDFDFD;
 }
 .intro {} .intro h1,
 h2,
@@ -488,7 +488,7 @@ p {
 .btn {
     text-decoration: none;
     text-align: center;
-    background-color: white;
+    background-color: #FDFDFD;
     border: 2px solid #00C874;
     color: black;
     font-size: 24px;
@@ -606,7 +606,7 @@ span {
 .btn-donate {
     text-decoration: none;
     text-align: center;
-    background-color: white;
+    background-color: #FDFDFD;
     border: 2px solid #7D1C1C;
     color: black;
     font-size: 18px;
@@ -631,7 +631,7 @@ span {
 .btn-apply {
     text-decoration: none;
     text-align: center;
-    background-color: white;
+    background-color: #FDFDFD;
     border: 2px solid #00BFFF;
     color: black;
     font-size: 24px;
