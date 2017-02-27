@@ -450,6 +450,7 @@ p {
 .board p {
     margin-top: 24px;
     text-align: justify;
+    font-size:16px;
 }
 .board {
     padding-top: 50px;
